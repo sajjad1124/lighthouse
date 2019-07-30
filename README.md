@@ -9,7 +9,7 @@ This project has been developed for the rescue team during disasters like flood,
 •	Our idea is also useful for storms, cyclone and hurricane disasters.
 
 ##System Architecture
-
+![alt text](https://github.com/sajjad1124/lighthouse/blob/master/System%20Architecture.JPG?raw=true "System Architecture")
 
 ##Getting Started
 
