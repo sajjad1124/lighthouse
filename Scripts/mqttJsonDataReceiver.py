@@ -6,10 +6,12 @@ import math
 from store_Sensor_Data_to_DB import sensor_Data_Handler
 
 
-client =mqtt.Client("asdasd12334")
-# broker= "broker.hivemq.com"
-broker= "182.163.112.207"
+
+client = mqtt.Client('d:xkusl1:WiFi:did001')
+broker= "xkusl1.messaging.internetofthings.ibmcloud.com"
 port=1883
+client.username_pw_set('use-token-auth', '1qgh0uRc5zHf8p!BVL')
+client.connect(broker, port, 60)
 
 
 
@@ -31,7 +33,7 @@ print ("connecting to broker")
 # client.loop_start() #start the loop
 
 
-client.subscribe("sensor/data")
+client.subscribe("iot-2/evt/test/fmt/json")
 print ("subscribed")
 
 
