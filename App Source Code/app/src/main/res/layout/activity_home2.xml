@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3f3f3f"
+    tools:context=".ui.Home">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/light"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select option"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/title1"
+        android:textStyle="bold"
+
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="Powered by Team light house"
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:id="@+id/title2"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Add host number"
+       android:layout_marginTop="40dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:background="@drawable/rectangle"
+       android:id="@+id/contact"
+       android:textSize="20sp"
+       android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supplies chain"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/supply"
+
+        android:background="@drawable/rectangle"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realtime track"
+
+            android:id="@+id/track"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rectangle"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+</LinearLayout>
