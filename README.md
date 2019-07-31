@@ -83,12 +83,6 @@ def on_message(client, userdata, message):
 client.on_connect = on_connect  #attach the callback function to the client object 
 client.on_message = on_message	#attach the callback function to the client object 
 
-
-data = json.dumps(tempSensorData)
-data2 = json.dumps(tempSensorDataa)
-data3 = json.dumps(tempSensorDataaa)
-data4 = json.dumps(tempSensorDataaaa)
-
 client.connect(broker, port, 60)
 print ("connecting to broker")
 
